@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./Pages/MainPage";
+import Home from './Pages/Home';
 
 
 
 export default function AllRoutes () {
     return(
     <Routes>
-        <Route path="/" element={<MainPage/>}/>
+        <Route path="/" element={<Home/>}/>
         
       </Routes>
     )

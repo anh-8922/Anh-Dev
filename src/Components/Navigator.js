@@ -7,11 +7,11 @@ export default function Navigator() {
     
     return(
         <div style={{
-            backgroundColor:'#C7A87E', padding:'1rem', 
+            backgroundColor:'#C7A87E', padding:'1rem 3rem', 
             display:'flex', flexDirection:'row', 
             justifyContent:'flex-end', gap:'1rem'}}>
             <NavLink className="NavItems" to="/">Profile</NavLink>
-            <NavLink className="NavItems" >Projects</NavLink>
+            <NavLink className="NavItems" to='/projects'>Projects</NavLink>
             <NavLink className="NavItems">Qualifications</NavLink>
             <NavLink className="NavItems">Blog</NavLink>
             <NavLink className="NavItems">Contact</NavLink>

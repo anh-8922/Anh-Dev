@@ -54,4 +54,15 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }

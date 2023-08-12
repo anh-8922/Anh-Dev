@@ -14,7 +14,7 @@ export default function Navigator() {
             <NavLink className="NavItems" to='/projects'>Projects</NavLink>
             <NavLink className="NavItems">Qualifications</NavLink>
             <NavLink className="NavItems">Blog</NavLink>
-            <NavLink className="NavItems">Contact</NavLink>
+            <NavLink className="NavItems" to='/contact'>Contact</NavLink>
         </div>
     )
 }

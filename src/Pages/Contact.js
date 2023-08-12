@@ -26,7 +26,7 @@ export default function Contact() {
 
     return(
         <MainLayout>
-            <div>
+            <div style={{margin: '2rem'}}>
             <form ref={form} 
                           onSubmit={sendEmail} 
                           style={{display:'flex', flexDirection:'column', gap:'2.5rem', justifyContent:"flex-start", marginLeft:'10rem', marginTop:'2rem'}}>

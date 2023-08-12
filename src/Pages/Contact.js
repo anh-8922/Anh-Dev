@@ -26,32 +26,44 @@ export default function Contact() {
 
     return(
         <MainLayout>
-            <div style={{margin: '2rem'}}>
-            <form ref={form} 
-                          onSubmit={sendEmail} 
-                          style={{display:'flex', flexDirection:'column', gap:'2.5rem', justifyContent:"flex-start", marginLeft:'10rem', marginTop:'2rem'}}>
+            <div style={{margin: '2rem', display:'flex', flexDirection:'row', justifyContent:'center'}}>
+                <form ref={form} 
+                            onSubmit={sendEmail} 
+                            style={{display:'flex', flexDirection:'column', gap:'1.5rem', alignItems:'flex-start'}}>
+                    <div style={{display:'flex', flexDirection:'row', width:'40rem'}}>
+                        <div style={{display:'flex', flexDirection:'row', width:'100%'}}>
+                            <div>Name:</div>
+                            <input type="text" 
+                                    name="name" 
+                                    placeholder='Name' 
+                                    style={{height:'3rem', width:'100%', padding:'1rem'}} />
+                        </div>
+                        <div style={{display:'flex', flexDirection:'row', width:'100%'}}>
+                            <div>Email:</div>
+                            <input type="email" 
+                                    name="email" 
+                                    placeholder='Email Address' 
+                                    style={{height:'3rem', width:'100%', padding:'1rem'}}/>
+                        </div>
+                    </div>        
+                    <div style={{display:'flex', flexDirection:'row', width:'40rem'}}>
+                        <div>Subject:</div>
                         <input type="text" 
-                               name="name" 
-                               placeholder='Name' 
-                               style={{height:'3rem', width:'40rem', padding:'1rem'}} />
-                        <input type="email" 
-                               name="email" 
-                               placeholder='Email Address' 
-                               style={{height:'3rem', width:'40rem', padding:'1rem'}}/>
-                        <input type="text" 
-                               name="subject" 
-                               placeholder='Subject' 
-                               style={{height:'3rem', width:'40rem', padding:'1rem'}}/>
+                                name="subject" 
+                                placeholder='Subject' 
+                                style={{height:'3rem', width:'100%', padding:'1rem'}}/>
+                    </div>        
+                    <div>
+                        <div>Add your message:</div>
                         <textarea name="message" 
-                                  placeholder="Your message"  
-                                  style={{height:'15rem', width:'40rem', padding:'1rem'}}/>
-                        <input type="submit" 
-                               value="Send Message" 
-                               style={{height:'4rem', width:'15rem', padding:'1rem', fontSize:'1.3rem'}}/>
-                    </form>
-                    {messageStatus && alert (messageStatus)
-
-}
+                                    placeholder="Your message"  
+                                    style={{height:'13rem', width:'40rem', padding:'1rem'}}/>
+                    </div>            
+                    <input type="submit" 
+                                value="Send Message" 
+                                style={{padding:'0.7rem 1rem'}}/>
+                </form>
+                    {messageStatus && alert (messageStatus)}
             </div>
         </MainLayout>
     )

@@ -17,9 +17,7 @@ export default function Project() {
                                 className='css-button-retro--sand' 
                                 style={{margin:'0 0 3rem 16rem', textAlign:'center', textDecoration:'none'}}>Read more</a>
                         </div>
-                        <div style={{backgroundColor:'grey', textAlign:'center'}}>
-                            adsafa
-                        </div>
+                        
                         
                     </Carousel.Item>
                     <Carousel.Item>
@@ -28,7 +26,7 @@ export default function Project() {
                                 className='css-button-retro--sand' 
                                 style={{margin:'0 0 3rem 16rem', textAlign:'center', textDecoration:'none'}}>Read more</a>
                         </div>
-                        <div style={{backgroundColor:'grey'}}>fsdgfsdfdsf</div>
+                  
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='cars-items' style={{backgroundImage: `url("${justip}")`}}>
@@ -36,7 +34,7 @@ export default function Project() {
                                 className='css-button-retro--sand' 
                                 style={{margin:'0 0 3rem 16rem', textAlign:'center', textDecoration:'none'}}>Read more</a>
                         </div>
-                        <div style={{backgroundColor:'grey'}}>fsdgfsdfdsf</div>
+                     
                     </Carousel.Item>
                 </Carousel>
             </div>

@@ -33,7 +33,7 @@ export default function Contact() {
     return(
         <MainLayout>
             <section className='contact-section'>
-                <div>   
+                <div style={{display:'flex', flexDirection:'column', alignItems:'center', height:'max-content'}}>   
                     <div style={{backgroundImage: `url("${message}")`, width:'25rem', height:'17rem', backgroundSize:'cover', margin:'auto'}}></div>
                     <ul className='social-connect'>
                         <li><a href='https://github.com/anh-8922' target='_blank'><div style={{

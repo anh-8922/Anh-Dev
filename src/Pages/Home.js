@@ -2,9 +2,13 @@ import MainLayout from '../Layout/MainLayout';
 import mountain from '../Assets/mountain.jpg';
 import '../Styles/components.css';
 import Anh from '../Assets/Anh.png';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Home() {
+    const navigate = useNavigate();
+    const navigateToProjects = () => {
+        navigate('/projects')
+    }
     return(
         <MainLayout>
             <section style={{
@@ -52,7 +56,7 @@ export default function Home() {
                         <li><Link className='skill-items'>SEO</Link></li>
                         <li><Link className='skill-items'>Agile Methodologies</Link></li>
                     </ul>
-                    <button className='css-button-retro--sand'>My projects</button>
+                    <button className='css-button-retro--sand' onClick={navigateToProjects}>My projects</button>
                 </div>
                 <div style={{
                 backgroundImage:`url("${mountain}")`,

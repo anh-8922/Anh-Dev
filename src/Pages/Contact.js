@@ -36,10 +36,10 @@ export default function Contact() {
                 <div>   
                     <div style={{backgroundImage: `url("${message}")`, width:'25rem', height:'17rem', backgroundSize:'cover', margin:'auto'}}></div>
                     <ul className='social-connect'>
-                        <li><div style={{
+                        <li><a href='https://github.com/anh-8922' target='_blank'><div style={{
                             backgroundImage: `url("${github}")`, 
                             width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></li>
+                            backgroundSize:'cover'}}/></a></li>
                         <li><div style={{
                             backgroundImage: `url("${facebook}")`, 
                             width:'3rem', height:'3rem',

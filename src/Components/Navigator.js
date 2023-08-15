@@ -12,7 +12,7 @@ export default function Navigator() {
             justifyContent:'flex-end', gap:'1rem'}}>
             <NavLink className="NavItems" to="/">Profile</NavLink>
             <NavLink className="NavItems" to='/projects'>Projects</NavLink>
-            <NavLink className="NavItems" to='/qualifications'>Qualifications</NavLink>
+            <NavLink className="NavItems" to='/experiences'>Experiences</NavLink>
             <NavLink className="NavItems">Blog</NavLink>
             <NavLink className="NavItems" to='/contact'>Contact</NavLink>
         </div>

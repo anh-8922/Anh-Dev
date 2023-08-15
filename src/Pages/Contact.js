@@ -3,6 +3,7 @@ import MainLayout from '../Layout/MainLayout';
 import '../Styles/components.css';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import message from '../Assets/message.png';
 
 export default function Contact() {
     const form = useRef();
@@ -26,20 +27,21 @@ export default function Contact() {
 
     return(
         <MainLayout>
+            <div style={{backgroundImage: `url("${message}")`, width:'25rem', height:'17rem', backgroundSize:'cover', margin:'auto'}}></div>
             <div style={{margin: '2rem', display:'flex', flexDirection:'row', justifyContent:'center'}}>
                 <form ref={form} 
                             onSubmit={sendEmail} 
                             style={{display:'flex', flexDirection:'column', gap:'1.5rem', alignItems:'flex-start'}}>
                     <div style={{display:'flex', flexDirection:'row', width:'40rem'}}>
                         <div style={{display:'flex', flexDirection:'row', width:'100%'}}>
-                            <div>Name:</div>
+                            <div className='labels'>Name:</div>
                             <input type="text" 
                                     name="name" 
                                     placeholder='Name' 
-                                    style={{height:'3rem', width:'100%', padding:'1rem'}} />
+                                    style={{height:'3rem', width:'100%', padding:'1rem', marginRight:'1rem'}} />
                         </div>
                         <div style={{display:'flex', flexDirection:'row', width:'100%'}}>
-                            <div>Email:</div>
+                            <div className='labels'>Email:</div>
                             <input type="email" 
                                     name="email" 
                                     placeholder='Email Address' 
@@ -47,7 +49,7 @@ export default function Contact() {
                         </div>
                     </div>        
                     <div style={{display:'flex', flexDirection:'row', width:'40rem'}}>
-                        <div>Subject:</div>
+                        <div className='labels'>Subject:</div>
                         <input type="text" 
                                 name="subject" 
                                 placeholder='Subject' 

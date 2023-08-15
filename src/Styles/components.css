@@ -66,3 +66,11 @@ form {
     align-items: flex-start;
     
 }
+
+.labels{
+  background-color: aquamarine;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 0.5rem 1rem 0 1rem;
+  border: 1px solid grey;
+}

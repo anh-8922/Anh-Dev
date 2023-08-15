@@ -3,7 +3,7 @@ import '../Styles/components.css';
 import milestone from '../Assets/milestone.png';
 import { Link } from 'react-router-dom';
 
-export default function Qualifications() {
+export default function Experiences() {
     return(
         <MainLayout>
             <div style={{display:'flex', flexDirection:'row', margin:'2rem'}}>

@@ -9,7 +9,8 @@ export default function Navigator() {
         <div style={{
             backgroundColor:'#C7A87E', padding:'1rem 3rem', 
             display:'flex', flexDirection:'row', 
-            justifyContent:'flex-end', gap:'1rem'}}>
+            justifyContent:'flex-end', gap:'1rem',
+            borderTopLeftRadius:'0.7rem', borderTopRightRadius:'0.7rem'}}>
             <NavLink className="NavItems" to="/">Profile</NavLink>
             <NavLink className="NavItems" to='/projects'>Projects</NavLink>
             <NavLink className="NavItems" to='/experiences'>Experiences</NavLink>

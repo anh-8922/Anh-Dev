@@ -1,8 +1,20 @@
+:root{
+  --palette-green: #528888;
+  --palette-black: #110B08;
+  --palette-grey: #2B2823;
+  --palette-skin: #C7A87E;
+  --palette-brown: #5C3326;
+  --palette-white: #E6E6D6;
+  --font-main: 'Inconsolata', monospace;
+  --font-deco: 'Major Mono Display', monospace;
+  --font-feature: 'Josefin Slab', serif;
+}
+
 .NavItems {
   text-decoration: none;
   font-weight: bold;
   color: #452F38;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-bottom: none;
   font-family: 'Major Mono Display', monospace;
   font-weight: bold;
@@ -14,21 +26,22 @@
 }
 
 .css-button-retro--sand {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
+    
+   
+    padding: 1rem 0.9rem 0.5rem 1.3rem;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
     outline: none;
-    border: 1px solid #000;
+    border: 1px solid grey;
     color: #000;
     background: transparent;
     z-index: 0;
     margin: 1rem 0 0 2rem;
+    letter-spacing: 1px;
+    
   }
   .css-button-retro--sand:hover:after {
     top: 0;
@@ -61,10 +74,16 @@
     cursor: pointer;
     color: black
 }
+.carousel-indicators > button {
+  background-color: pink;
+}
 .carousel-indicators button.active {
   background-color: #000;
 }
 .carousel-control-next-icon {
+  background-color: #000;
+}
+.carousel-control-prev-icon {
   background-color: #000;
 }
 .cars-items{
@@ -83,7 +102,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  gap: 2rem;
 }
 form {
     display: flex;
@@ -100,15 +119,24 @@ form {
   margin-top: 1rem;
 }
 .labels{
-  background-color: aquamarine;
+  background-color: var(--palette-brown);
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-  padding: 0.5rem 1rem 0 1rem;
+  padding: 0.5rem 0.5rem 0 1rem;
   border: 1px solid grey;
+  color: whitesmoke;
+  font-size: 1.2rem;
 }
-
+.form-input {
+  border: 2px solid white;
+  border-left: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
 .submit-msg {
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   padding: 0.5rem 0.7rem;
+  background-color: #D37C2B;
+  color:whitesmoke
 }
 

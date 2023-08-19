@@ -1,5 +1,18 @@
 *{
-  font-family: 'Inconsolata', monospace;;
+  font-family: 'Inconsolata', monospace;
+  color: #110B08;
+}
+
+:root{
+  -palette--green: #295A5F;
+  -palette--black: #110B08;
+  -palette--grey: #2B2823;
+  -palette--skin: #A27749;
+  -palette--brown: #5C3326;
+  -palette--white: #E6E6D6;
+  -font--main: 'Inconsolata', monospace;
+  -font--deco: 'Major Mono Display', monospace;
+  -font--feature: 'Josefin Slab', serif;
 }
 
 .App {

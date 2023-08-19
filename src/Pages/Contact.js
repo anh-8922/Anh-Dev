@@ -59,7 +59,7 @@ export default function Contact() {
                     </ul>
                 </div>
                 <div style={{margin: '2rem', display:'flex', flexDirection:'column'}}>
-                    <h2>Leave your message</h2>
+                    <h2 style={{color:'#2B2823'}}>Leave your message</h2>
                     <form ref={form} 
                                 onSubmit={sendEmail} 
                                 style={{display:'flex', flexDirection:'column', gap:'1.5rem', alignItems:'flex-start'}}>
@@ -68,6 +68,7 @@ export default function Contact() {
                                 <div className='labels'>Name:</div>
                                 <input type="text" 
                                         name="name" 
+                                        className='form-input'
                                         placeholder='Name' 
                                         style={{height:'3rem', width:'100%', padding:'1rem', marginRight:'1rem'}} />
                             </div>
@@ -75,6 +76,7 @@ export default function Contact() {
                                 <div className='labels'>Email:</div>
                                 <input type="email" 
                                         name="email" 
+                                        className='form-input'
                                         placeholder='Email Address' 
                                         style={{height:'3rem', width:'100%', padding:'1rem'}}/>
                             </div>
@@ -83,13 +85,17 @@ export default function Contact() {
                             <div className='labels'>Subject:</div>
                             <input type="text" 
                                     name="subject" 
+                                    className='form-input'
                                     placeholder='Subject' 
                                     style={{height:'3rem', width:'100%', padding:'1rem'}}/>
                         </div>        
                         <div>
                             <textarea name="message" 
                                         placeholder="Add Your message..."  
-                                        style={{height:'13rem', width:'40rem', padding:'1rem'}}/>
+                                        style={{
+                                            height:'13rem', width:'40rem', 
+                                            padding:'1rem', borderRadius:'0.5rem',
+                                            borderColor:'grey'}}/>
                         </div>            
                         <input type="submit" 
                                     value="Send Message" 

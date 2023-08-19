@@ -56,7 +56,7 @@ export default function Home() {
                         <li><Link className='skill-items'>SEO</Link></li>
                         <li><Link className='skill-items'>Agile Methodologies</Link></li>
                     </ul>
-                    <button className='css-button-retro--sand' onClick={navigateToProjects}>My projects</button>
+                    <button className='css-button-retro--sand' onClick={navigateToProjects}>MY PROJECTS</button>
                 </div>
                 <div style={{
                 backgroundImage:`url("${mountain}")`,

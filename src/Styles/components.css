@@ -4,6 +4,8 @@
   color: #452F38;
   font-size: 1.2rem;
   border-bottom: none;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
 }
 
 
@@ -59,7 +61,12 @@
     cursor: pointer;
     color: black
 }
-
+.carousel-indicators button.active {
+  background-color: #000;
+}
+.carousel-control-next-icon {
+  background-color: #000;
+}
 .cars-items{
     width: 100%;
     height: 65vh;

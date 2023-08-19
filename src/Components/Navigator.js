@@ -12,11 +12,11 @@ export default function Navigator() {
             justifyContent:'flex-end', gap:'1rem',
             borderTopLeftRadius:'0.7rem', borderTopRightRadius:'0.7rem',
             listStyleType:'none'}}>
-            <NavLink className="NavItems" to="/">Profile</NavLink>
-            <NavLink className="NavItems" to='/projects'>Projects</NavLink>
-            <NavLink className="NavItems" to='/experiences'>Experiences</NavLink>
-            <NavLink className="NavItems" to='/blog'>Blog</NavLink>
-            <NavLink className="NavItems" to='/contact'>Contact</NavLink>
+            <NavLink className="NavItems" to="/">About</NavLink>
+            <NavLink className="NavItems" to='/projects'>projects</NavLink>
+            <NavLink className="NavItems" to='/experiences'>experiences</NavLink>
+            <NavLink className="NavItems" to='/blog'>bLOG</NavLink>
+            <NavLink className="NavItems" to='/contact'>coNtAct</NavLink>
         </div>
     )
 }

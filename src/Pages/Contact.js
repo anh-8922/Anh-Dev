@@ -35,6 +35,7 @@ export default function Contact() {
             <section className='contact-section'>
                 <div style={{display:'flex', flexDirection:'column', alignItems:'center', height:'max-content'}}>   
                     <div style={{backgroundImage: `url("${message}")`, width:'25rem', height:'17rem', backgroundSize:'cover', margin:'auto'}}></div>
+                    <h5>Let's Connect</h5>
                     <ul className='social-connect'>
                         <li><a href='https://github.com/anh-8922' target='_blank'><div style={{
                             backgroundImage: `url("${github}")`, 
@@ -57,6 +58,8 @@ export default function Contact() {
                             width:'3rem', height:'3rem',
                             backgroundSize:'cover'}}/></li>
                     </ul>
+                    <h5>or reach me at</h5>
+                    <h3>anh-dev@hotmail.com</h3>
                 </div>
                 <div style={{margin: '2rem', display:'flex', flexDirection:'column'}}>
                     <h2 style={{color:'#2B2823'}}>Leave your message</h2>

@@ -44,6 +44,41 @@ function TimelineStory() {
             <p>This is when my journey as a web developer commenced. Armed with an insatiable hunger to 
                 learn and explore, I began nurturing the seeds of coding. Back then, I could only imagine 
                 the incredible growth that awaited me in the digital realm.</p>
+            <h5>🏗️ 2018: Setting the Foundation 🏗️</h5>
+            <p>Fast forward to 2018, a pivotal year where I laid down the solid groundwork. Learning the 
+                fundamentals of coding languages and concepts became my daily ritual. With HTML, CSS, and 
+                JavaScript, I started building the very foundation upon which I would construct my career. 
+                The excitement of seeing my first webpage come to life was unmatched, and it marked the 
+                beginning of my journey's ascent.</p>
+            <h5>🚀 2019: Diving into the Code 🚀</h5>
+            <p>The following year, 2019, was marked by an insatiable desire to delve deeper. My coding prowess 
+                evolved from creating static web pages to dynamic, interactive experiences. Lines of code 
+                turned into functional applications, and the world of APIs and frameworks beckoned. 
+                This period of exploration and experimentation defined my passion for bringing ideas to 
+                life through code.</p>
+            <h5>🛠️ 2020: Freelance and Skill Refinement 🛠️</h5>
+            <p>As 2020 emerged, I sought to refine my skills through real-world challenges. Freelancing 
+                became my portal to the professional coding realm. The intricacies of working with clients, 
+                understanding project requirements, and delivering solutions forged me into a versatile 
+                developer. Each project was an opportunity to not only improve my skills but also to 
+                comprehend the human side of coding - how technology translates into value for individuals 
+                and businesses.</p>
+            <h5>📚 2022: Professional Training and Beyond 📚</h5>
+            <p>In 2022, I recognized the significance of professional training. Investing in myself through 
+                focused learning propelled my skills to new heights. Courses, workshops, and mentorship 
+                allowed me to embrace emerging technologies and industry best practices. The digital world 
+                was evolving rapidly, and I was determined to remain at the forefront of innovation.</p>
+            <h5>🌟 2023: Mastery of Fullstack 🌟</h5>
+            <p>And now, here we are in 2023, a year of mastery. The journey from planting seeds to fullstack 
+                mastery has been a rollercoaster of dedication and growth. From crafting elegant front-end 
+                interfaces to engineering robust back-end systems, I've embraced the entirety of the 
+                development landscape. The exhilaration of orchestrating complete applications is both 
+                humbling and empowering - a testament to the progress I've achieved.</p>
+            <h5>🔮 Gazing Ahead: The Unwritten Chapters 🔮</h5>
+            <p>As I reflect on this journey, I can't help but wonder about the chapters that remain unwritten. 
+                The path of a coder is infinite, evolving as technology advances and creative possibilities expand. 
+                The heart of this journey lies in continuous learning, embracing change, and using code as a 
+                vehicle for innovation and impact.</p>
         </>
     )
 }

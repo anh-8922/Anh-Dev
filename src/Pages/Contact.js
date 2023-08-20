@@ -41,18 +41,18 @@ export default function Contact() {
                             backgroundImage: `url("${github}")`, 
                             width:'3rem', height:'3rem',
                             backgroundSize:'cover'}}/></a></li>
-                        <li><div style={{
+                        <li><a href='https://www.facebook.com/hafsa.chau' target='_blank'><div style={{
                             backgroundImage: `url("${facebook}")`, 
                             width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></li>
-                        <li><div style={{
+                            backgroundSize:'cover'}}/></a></li>
+                        <li><a href='https://www.linkedin.com/in/anh-kim-chau/' target='_blank'><div style={{
                             backgroundImage: `url("${linked}")`, 
                             width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></li>
-                        <li><div style={{
+                            backgroundSize:'cover'}}/></a></li>
+                        <li><a href='https://discordapp.com/users/1047844500418080778' target='_blank'><div style={{
                             backgroundImage: `url("${discord}")`, 
                             width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></li>
+                            backgroundSize:'cover'}}/></a></li>
                         <li><div style={{
                             backgroundImage: `url("${email}")`, 
                             width:'3rem', height:'3rem',

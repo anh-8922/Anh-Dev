@@ -22,7 +22,7 @@
 
 
 .NavItems:hover, .active{
-  border-bottom: 4px double #452F38;
+  border-bottom: 4px solid #452F38;
 }
 
 .css-button-retro--sand {

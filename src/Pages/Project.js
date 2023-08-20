@@ -13,7 +13,7 @@ export default function Project() {
                 <Carousel>
                     <Carousel.Item>
                         <div className='cars-items' style={{backgroundImage: `url("${settlershub}")`}}>
-                            <a href='https://settlers-hub-client.vercel.app/' target='_blank'
+                            <a href='https://client-sh.vercel.app/' target='_blank'
                                 className='css-button-retro--sand' 
                                 style={{margin:'0 0 3rem 16rem', textAlign:'center', textDecoration:'none'}}>Read more</a>
                         </div>

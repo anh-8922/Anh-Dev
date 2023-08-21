@@ -1,0 +1,16 @@
+.tablet-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    
+}
+
+.foot-items {
+    font-size: 1.4rem;
+    border-right: 1px solid grey;
+    text-decoration: none;
+}
+
+.foot-items span {
+    margin: 0 1rem
+}

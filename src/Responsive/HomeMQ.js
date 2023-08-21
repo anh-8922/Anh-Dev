@@ -1,50 +1,20 @@
-import MainLayout from '../Layout/MainLayout';
-import mountain from '../Assets/mountain.jpg';
-import '../Styles/components.css';
 import Anh from '../Assets/Anh.png';
 import { Link, useNavigate } from 'react-router-dom';
-import MediaQuery from 'react-responsive';
-import HomeTablet from '../Responsive/HomeMQ';
-import LayoutMQ from '../Responsive/LayoutMQ';
 
-export default function Home() {
-    
-    return(
-        <>
-            <MediaQuery minWidth={1000}>
-                <MainLayout>
-                    <HomeContent/>
-                </MainLayout>
-            </MediaQuery>
-            <MediaQuery minWidth={670} maxWidth={1000}>
-                <LayoutMQ>
-                    <HomeTablet/>
-                </LayoutMQ>
-            </MediaQuery>
-            <MediaQuery minWidth={200} maxWidth={669}></MediaQuery>
-        </>           
-    )
-}
-
-function HomeContent() {
+export default function HomeTablet() {
     const navigate = useNavigate();
     const navigateToProjects = () => {
         navigate('/projects')
     }
     return(
-        <section style={{
-            display:'flex', flexDirection:'row', 
-            justifyContent:'space-between',
-            padding: '3.5rem'}}>
-            <div>
-                <div style={{display: 'flex',
-                        flexDirection:'row',
-                        justifyContent:'space-around'}}>
+        <>
+            
+                <div style={{display:'flex', flexDirection:'row', justifyContent:'space-around'}}>
                     <div style={{
-                        backgroundImage:`url("${Anh}")`,
-                        width:'13rem', height:'13rem',
-                        backgroundSize:'cover', 
-                        }}>
+                            backgroundImage:`url("${Anh}")`,
+                            width:'13rem', height:'13rem',
+                            backgroundSize:'cover', 
+                            }}>
                     </div>
                     <p style={{width:'70%' , padding:'0.5rem'}}>✥ An enthusiastic and committed JavaScript
                     Engineer skilled in developing user-friendly, visually appealing, and functional 
@@ -78,12 +48,7 @@ function HomeContent() {
                     <li><Link className='skill-items'>Agile Methodologies</Link></li>
                 </ul>
                 <button className='css-button-retro--sand' onClick={navigateToProjects}>MY PROJECTS</button>
-            </div>
-            <div style={{
-            backgroundImage:`url("${mountain}")`,
-            backgroundSize: 'cover',
-            width: '35%',
-            height:'55vh' }}></div>
-        </section>
+            
+        </>
     )
 }

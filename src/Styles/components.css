@@ -62,6 +62,7 @@
 .front-end, .back-end, .control-version{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 0.5rem;
     list-style-type: none;
     

@@ -5,6 +5,15 @@
     
 }
 
+
+#intro {
+    width: 70%;
+    padding:0.5rem
+}
+#intro-mobile{
+    width: auto;
+}
+
 .foot-items {
     font-size: 1.4rem;
     border-right: 1px solid grey;
@@ -14,3 +23,19 @@
 .foot-items span {
     margin: 0 1rem
 }
+
+@media only screen and (max-width: 772px) {
+   
+    #intro {
+        width: 60%;
+    }
+
+    .foot-items {
+        font-size: 1.2rem;
+        border-right: 1px solid grey;
+        text-decoration: none;
+    }
+    .foot-items span {
+        margin: 0 0.5rem
+    }
+  }

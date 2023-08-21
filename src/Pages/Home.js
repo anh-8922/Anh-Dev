@@ -5,6 +5,7 @@ import Anh from '../Assets/Anh.png';
 import { Link, useNavigate } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import HomeTablet from '../Responsive/HomeMQ';
+import { HomeMobile } from '../Responsive/HomeMQ';
 import LayoutMQ from '../Responsive/LayoutMQ';
 
 export default function Home() {
@@ -16,12 +17,16 @@ export default function Home() {
                     <HomeContent/>
                 </MainLayout>
             </MediaQuery>
-            <MediaQuery minWidth={670} maxWidth={1000}>
+            <MediaQuery minWidth={600} maxWidth={1000}>
                 <LayoutMQ>
                     <HomeTablet/>
                 </LayoutMQ>
             </MediaQuery>
-            <MediaQuery minWidth={200} maxWidth={669}></MediaQuery>
+            <MediaQuery minWidth={200} maxWidth={599}>
+                <LayoutMQ>
+                    <HomeMobile/>
+                </LayoutMQ>
+            </MediaQuery>
         </>           
     )
 }

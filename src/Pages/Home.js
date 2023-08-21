@@ -7,6 +7,7 @@ import MediaQuery from 'react-responsive';
 import HomeTablet from '../Responsive/HomeMQ';
 import { HomeMobile } from '../Responsive/HomeMQ';
 import LayoutMQ from '../Responsive/LayoutMQ';
+import { LayoutMobile } from '../Responsive/LayoutMQ';
 
 export default function Home() {
     
@@ -23,9 +24,9 @@ export default function Home() {
                 </LayoutMQ>
             </MediaQuery>
             <MediaQuery minWidth={200} maxWidth={599}>
-                <LayoutMQ>
+                <LayoutMobile>
                     <HomeMobile/>
-                </LayoutMQ>
+                </LayoutMobile>
             </MediaQuery>
         </>           
     )

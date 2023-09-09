@@ -1,8 +1,9 @@
 import MainLayout from '../Layout/MainLayout';
 import Carousel from 'react-bootstrap/Carousel';
 import settlershub from '../Assets/settlershub.png';
-import heartymeal from '../Assets/heartymeal.jpg';
-import justip from '../Assets/justip.jpg';
+import heartymeal from '../Assets/heartymeal.jpeg';
+import todolist from '../Assets/todolist.jpeg';
+import justip from '../Assets/justip.jpeg';
 import '../Styles/components.css';
 import { Link } from 'react-router-dom';
 
@@ -52,19 +53,19 @@ export function MyProjects() {
                         <Link>Read more</Link>
                     </div>
                 </figure>
-                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                <figure className='card-img' style={{backgroundImage: `url("${heartymeal}")`}}>
                     <div className='card-info'>
                         <h5>website title</h5>
                         <Link>Read more</Link>
                     </div>
                 </figure>
-                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                <figure className='card-img' style={{backgroundImage: `url("${justip}")`}}>
                     <div className='card-info'>
                         <h5>website title</h5>
                         <Link>Read more</Link>
                     </div>
                 </figure>
-                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                <figure className='card-img' style={{backgroundImage: `url("${todolist}")`}}>
                     <div className='card-info'>
                         <h5>website title</h5>
                         <Link>Read more</Link>

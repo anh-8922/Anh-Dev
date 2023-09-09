@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
 :root{
   --palette-green: #528888;
   --palette-black: #110B08;
@@ -178,4 +184,24 @@ form {
 
 .card-header {
   border-radius: 0;
+}
+
+
+.card-img{
+  width: 22rem;
+  height: 15rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 1rem;
+  
+}
+
+.card-info {
+  background-color: #2b28239d;
+  width: 22rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0 1rem;
 }

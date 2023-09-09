@@ -41,3 +41,38 @@ export default function Project() {
         </MainLayout>            
     )
 }
+
+export function MyProjects() {
+    return(
+        <MainLayout>
+         <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', margin:'2rem', gap: '2rem'}}>
+                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                    <div className='card-info'>
+                        <h5>website title</h5>
+                        <Link>Read more</Link>
+                    </div>
+                </figure>
+                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                    <div className='card-info'>
+                        <h5>website title</h5>
+                        <Link>Read more</Link>
+                    </div>
+                </figure>
+                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                    <div className='card-info'>
+                        <h5>website title</h5>
+                        <Link>Read more</Link>
+                    </div>
+                </figure>
+                <figure className='card-img' style={{backgroundImage: `url("${settlershub}")`}}>
+                    <div className='card-info'>
+                        <h5>website title</h5>
+                        <Link>Read more</Link>
+                    </div>
+                </figure>
+               
+           
+         </div>
+        </MainLayout>
+    )
+}

@@ -5,24 +5,59 @@
   --palette-skin: #C7A87E;
   --palette-brown: #5C3326;
   --palette-white: #E6E6D6;
-  --font-main: 'Inconsolata', monospace;
-  --font-deco: 'Major Mono Display', monospace;
-  --font-feature: 'Josefin Slab', serif;
+  --font-main: 'IBM Plex Sans', sans-serif;
+  --font-deco: 'Elsie Swash Caps', cursive;
+  --font-feature: 'Elsie Swash Caps', cursive;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 5%;
+  gap: 1.5rem;
+  background-color: #C7A87E;
+  padding: 1rem; 
+  transition: 700ms ease;
+  
+}
+.side-bar-XL {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 15%;
+  gap: 1.5rem;
+  background-color: #C7A87E;
+  padding: 1rem;
+  transition: 700ms ease;
+}
+.sb-button{
+  background: none;
+  border: none;
+  font-size: 2rem;
+  width: fit-content;
+ 
 }
 
 .NavItems {
   text-decoration: none;
   font-weight: bold;
   color: #452F38;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   border-bottom: none;
-  font-family: 'Major Mono Display', monospace;
+  font-family: var(--font-deco);
   font-weight: bold;
 }
 
 
 .NavItems:hover, .active{
-  border-bottom: 4px solid #452F38;
+  border-bottom: 1px solid #452f3899;
+  border-right: 1px solid #452f3899;
+}
+
+.items-extended {
+  font-size: 1.3rem;
+  margin-left: 1rem;
 }
 
 .css-button-retro--sand {

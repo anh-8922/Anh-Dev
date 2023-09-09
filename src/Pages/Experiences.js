@@ -11,18 +11,7 @@ export default function Journey() {
     
     return(
         <MainLayout>
-            <div style={{
-              display:'flex', flexDirection:'row', margin:'3rem', height:'30rem',
-              justifyContent:'space-between', overflow:'scroll'
-              }}>
-                <div style={{width:'55%'}}><Timeline/></div>
-                <a href='https://i.postimg.cc/B3MMNmkL/timeline.jpg' target='_blank' 
-                    style={{
-                    backgroundImage: `url("${milestone}")`, 
-                    width: '40%', height:'70rem', 
-                    backgroundSize:'cover',
-                    borderRadius:'0.5rem'}}></a>
-            </div>
+           
         </MainLayout>
     )
 }

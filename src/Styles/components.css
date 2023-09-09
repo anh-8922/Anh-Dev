@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 5%;
+  width: 4rem;
   gap: 1.5rem;
   background-color: #C7A87E;
   padding: 1rem; 
@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 15%;
+  width: 12rem;
   gap: 1.5rem;
   background-color: #C7A87E;
   padding: 1rem;
@@ -188,7 +188,7 @@ form {
 
 
 .card-img{
-  width: 22rem;
+  width: 20rem;
   height: 15rem;
   background-size: cover;
   display: flex;
@@ -200,7 +200,7 @@ form {
 
 .card-info {
   background-color: #2b28239d;
-  width: 22rem;
+  width: 20rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding: 0 1rem;

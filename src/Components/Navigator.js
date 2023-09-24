@@ -19,7 +19,7 @@ export default function Navigator() {
            
                 <NavLink className="NavItems" to="/"><RiProfileLine/>{slide?"":<span className='items-extended'>About</span>}</NavLink>
                 <NavLink className="NavItems" to='/projects'><MdOutlineCollectionsBookmark/>{slide?"":<span className='items-extended'>Projects</span>}</NavLink>
-                <NavLink className="NavItems" to='/journey'><GiBlackBook/>{slide?"":<span className='items-extended'>Projects</span>}</NavLink>
+                <NavLink className="NavItems" ><GiBlackBook/>{slide?"":<span className='items-extended'>Projects</span>}</NavLink>
                 <NavLink className="NavItems" to='/contact'><AiOutlineMail/>{slide?"":<span className='items-extended'>Contact</span>}</NavLink>
          
         </div>

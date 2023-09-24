@@ -191,6 +191,7 @@ form {
   width: 23rem;
   min-height: 15rem;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -212,8 +213,8 @@ form {
 
 .open-link {
   text-decoration: none;
-  background-color:#528888d0;
-  padding: 0.5rem 0.3rem;
+  background-color:#528888;
+  padding: 0.3rem 0.25rem;
   border-radius: 0.5rem 0;
   color: white;
   margin-bottom: 0.5rem;

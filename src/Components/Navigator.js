@@ -2,7 +2,6 @@ import { NavLink, useNavigate } from "react-router-dom";
 //import AddNewRecipes from "../Pages/AddRecipePage";
 import { useState } from "react";
 import '../Styles/components.css';
-import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import {RiMenuUnfoldFill} from 'react-icons/ri';
 import {RiProfileLine} from 'react-icons/ri';
 import {MdOutlineCollectionsBookmark} from 'react-icons/md';
@@ -22,13 +21,7 @@ export default function Navigator() {
                 <NavLink className="NavItems" to='/projects'><MdOutlineCollectionsBookmark/>{slide?"":<span className='items-extended'>Projects</span>}</NavLink>
                 <NavLink className="NavItems" to='/journey'><GiBlackBook/>{slide?"":<span className='items-extended'>Projects</span>}</NavLink>
                 <NavLink className="NavItems" to='/contact'><AiOutlineMail/>{slide?"":<span className='items-extended'>Contact</span>}</NavLink>
-                          
-            
-           
-               
-            
-
-            
+         
         </div>
     )
 }

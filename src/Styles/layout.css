@@ -1,6 +1,92 @@
-.mainbody {
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+:root{
+    --dark-green: #264143;
+    --white-text: #F2EBE9;
+    --pink-theme: #DE5499;
+    --dark-charcoal: #303030;
+    --white-lotion: #FAFAFA;
+}
+
+.navigator {
+    background-color: var(--dark-green);
+    color: var(--white-text);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    position: fixed;
+    height: 100vh;
+    border-right: 5px solid #9c8367;
+    border-right-style: groove;
+    z-index: 10;
+}
+
+.navigator > p {
+    width: 75%;
+    text-align: center;
+    align-self: center;
+}
+
+.profile-img{
+    background-image: url('../Assets/Anh.png');
+    width: 13rem;
+    height: 13rem;
+    background-size: cover;
+    display: flex;
+    align-self: center;
+}
+
+.social-content{
     display: flex;
     flex-direction: row;
-    margin: 7rem 6rem 5rem 6rem;  
+    list-style-type: none;
+}
+
+.nav-content {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    font-size: 1.2rem;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.nav-items {
+    color: var(--white-text);
+    text-decoration: none;
+    font-weight: bold;
     
+}
+
+.nav-items span {
+    margin-left: 1rem;
+}
+.reach-button {
+    display: flex;
+    align-self: center;
+    background-color: var(--pink-theme);
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.7rem;
+}
+  /*============*/
+ /*MAIN CONTAIN*/
+/*============*/
+
+.main-content{
+    background-color: var(--white-lotion);
+    color: var(--dark-charcoal);
+    position: absolute;
+    right: 0;
+    left: 300px;
+    padding: 3rem 5rem;
+  
+
 }

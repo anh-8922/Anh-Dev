@@ -1,16 +1,18 @@
-import Navigator from "../Components/Navigator";
-import '../Styles/layout.css';
+import Navigator from "./Navigator";
+import '../Styles/Layout.css'
 
-export default function Layout({children}) {
+export default function MainLayout({children}) {
+    const layoutStyle = {
+        display: 'flex',
+        flexDirection: 'row',
+        height: '100vh'
+    }
+
     return(
-        <div className="mainbody">
-            <Navigator/>
-            <div style={{
-                backgroundColor: '#e6e6d6', height: 'max-content',
-                }}> 
-                {children}
-            </div>
-          
+        <div style={layoutStyle}>
+            <div className="navigator"><Navigator/></div>
+            <div className="main-content">{children}</div>
         </div>
     )
+   
 }

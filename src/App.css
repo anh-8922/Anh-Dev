@@ -27,7 +27,7 @@
   height: 100%;
   background-image: url('./Assets/mountain.jpg');
   background-size: cover;
- 
   z-index: -1;
   overflow-y: auto;
+  padding: 0 5rem;
 }

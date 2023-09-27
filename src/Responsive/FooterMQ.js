@@ -4,7 +4,7 @@ import {CgWebsite} from 'react-icons/cg';
 import {MdOutlineContactMail} from 'react-icons/md';
 import {AiOutlineHome} from 'react-icons/ai';
 import {GiNotebook} from 'react-icons/gi';
-import '../Styles/responsive.css'
+
 import { Link } from 'react-router-dom';
 
 export default function FooterMQ() {

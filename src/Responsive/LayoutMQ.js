@@ -1,4 +1,4 @@
-import '../Styles/responsive.css';
+
 import FooterMQ from './FooterMQ';
 import { FooterMobile } from './FooterMQ';
 import MediaQuery from 'react-responsive';

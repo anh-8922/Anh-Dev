@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import MainLayout from '../Layout/MainLayout';
-import '../Styles/components.css';
+
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import message from '../Assets/message.png';

@@ -1,5 +1,5 @@
 import Navigator from "./Navigator";
-import '../Styles/Layout.css'
+import './layout.css'
 
 export default function MainLayout({children}) {
     const layoutStyle = {

@@ -1,5 +1,6 @@
 import { NavLink, Link, useNavigate } from "react-router-dom";
-import '../Styles/Layout.css';
+import './layout.css';
+import '../Components/components.css';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {CgWebsite} from 'react-icons/cg';
 import {LiaNewspaperSolid} from 'react-icons/lia';

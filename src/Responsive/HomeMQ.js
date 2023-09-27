@@ -1,6 +1,6 @@
 import Anh from '../Assets/Anh.png';
 import { Link, useNavigate } from 'react-router-dom';
-import '../Styles/responsive.css'
+
 
 export default function HomeTablet() {
     const navigate = useNavigate();

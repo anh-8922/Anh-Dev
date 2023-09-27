@@ -1,5 +1,5 @@
 import MainLayout from '../Layout/MainLayout';
-import '../Styles/components.css';
+
 import milestone from '../Assets/milestone.jpg';
 import { Link, useNavigate} from 'react-router-dom';
 import CustomToggle from '../Components/Accordion';

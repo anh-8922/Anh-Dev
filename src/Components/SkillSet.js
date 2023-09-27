@@ -1,4 +1,4 @@
-import '../Styles/Components.css';
+import './components.css';
 import html from '../Assets/skills/html.png';
 import css from '../Assets/skills/css.png';
 import javascript from '../Assets/skills/javascript.png';

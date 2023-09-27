@@ -1,6 +1,6 @@
 import MainLayout from '../Layout/MainLayout';
 import mountain from '../Assets/mountain.jpg';
-import '../Styles/components.css';
+
 import Anh from '../Assets/Anh.png';
 import { Link, useNavigate } from 'react-router-dom';
 import MediaQuery from 'react-responsive';

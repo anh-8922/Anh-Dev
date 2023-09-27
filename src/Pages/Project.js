@@ -4,7 +4,7 @@ import settlershub from '../Assets/settlershub.jpeg';
 import heartymeal from '../Assets/heartymeal.jpeg';
 import todolist from '../Assets/todolist.jpeg';
 import justip from '../Assets/justip.jpeg';
-import '../Styles/components.css';
+
 import { Link } from 'react-router-dom';
 
 export function MyProjects() {

@@ -1,7 +1,13 @@
 import MainLayout from "../Layout/MainLayout";
 import SkillSets from "../Components/SkillSet";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {
+    const navigate = useNavigate();
+    toMyProject = () => {
+        navigate('/portfolio');
+    }
+
     return(
         <MainLayout>
             <h1 style={{fontFamily:'La Belle Aurore', fontSize:'4rem'}}>Anh Chau</h1>
@@ -12,7 +18,7 @@ export default function HomePage() {
             clients' requirements. 
             </p>
             <div style={{display:'flex', flexDirection:'row', margin: '2rem 0', gap:'1rem'}}>
-                <button className="profile-button">Projects</button>
+                <button className="profile-button" onClick={toMyProject}>Projects</button>
                 <button className="profile-button">Resume</button>
             </div>
             <div className="session-title">I'm skilled in:</div>

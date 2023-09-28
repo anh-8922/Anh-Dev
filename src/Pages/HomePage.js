@@ -11,15 +11,19 @@ export default function HomePage() {
     return(
         <MainLayout>
             <h1 style={{fontFamily:'La Belle Aurore', fontSize:'4rem'}}>Anh Chau</h1>
-            <h3>Web Developer | Navigate the Digital Frontier</h3>
-            <p>I'm a web enthusiast who loves crafting user-friendly, visually captivating, and fully functional websites.
-            My proficiency covers both front-end and back-end development, allowing me to build complete web applications. 
-            I have a knack for tackling intricate problems and consistently delivering high-quality projects that meet 
-            clients' requirements. 
+            <h3>&lt;Web Developer /&gt; Navigate the Digital Frontier</h3>
+            <p style={{textAlign:'justify'}}>Passionate about the art of web creation, I am driven by the pursuit of crafting immersive 
+                online experiences. My expertise extends across the entire web development spectrum, 
+                spanning from the aesthetic finesse of front-end design to the technical mastery of back-end 
+                development. With a natural talent for unraveling complex challenges, I take pride in 
+                consistently delivering top-tier projects that seamlessly align with the unique needs and 
+                aspirations of my clients.
             </p>
             <div style={{display:'flex', flexDirection:'row', margin: '2rem 0', gap:'1rem'}}>
                 <button className="profile-button" onClick={toMyProject}>Projects</button>
-                <button className="profile-button">Resume</button>
+                <a target='_blank' href="https://drive.google.com/file/d/1Q4Nb8rUf2y_7hzK5ghxKFW0e76JFTccm/view?usp=sharing">
+                    <button className="profile-button" >Resume</button>
+                </a>
             </div>
             <div className="session-title">I'm skilled in:</div>
             <SkillSets/>

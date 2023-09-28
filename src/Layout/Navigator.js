@@ -17,7 +17,7 @@ export default function Navigator() {
     return(
         <>
             <div className="profile-img"></div>
-            <p>My name is Anh and I am a Web Developer</p>
+            <p style={{width:'17rem', margin:'0 0.5rem'}}>My name is Anh. I am a <br/>web enthusiast</p>
             <ul className="social-content">
                 <li>
                     <Link to='https://discordapp.com/users/1047844500418080778' target='_blank'>

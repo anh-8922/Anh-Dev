@@ -46,6 +46,13 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 0.3rem;
+    align-self: center;
+    padding: 0;
+}
+.social-icons{
+    width: 2rem;
+    
 }
 
 .nav-content {

@@ -1,3 +1,6 @@
+  /*====================*/
+ /*SKILL SETS COMPONENT*/
+/*====================*/
 .skill-sets{
     width: 20rem;
 }
@@ -93,3 +96,20 @@
     top: 0;
     border-radius: 10px;
   }
+
+  /*=======================*/
+ /*PROJECT CARDS COMPONENT*/
+/*=======================*/
+.projects-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.458);
+  width: 30rem;
+
+}
+
+.projects-img {
+  width: 17rem;
+  
+}

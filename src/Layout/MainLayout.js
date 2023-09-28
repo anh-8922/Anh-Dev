@@ -5,7 +5,7 @@ export default function MainLayout({children}) {
     const layoutStyle = {
         display: 'flex',
         flexDirection: 'row',
-        height: '100vh'
+        height: '100vh',
     }
 
     return(

@@ -105,11 +105,11 @@
   flex-direction: row;
   gap: 1rem;
   border: 1px solid rgba(128, 128, 128, 0.458);
-  width: 30rem;
+  width: 32rem;
 
 }
 
 .projects-img {
-  width: 17rem;
+  width: 22rem;
   
 }

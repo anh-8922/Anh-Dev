@@ -16,7 +16,7 @@ export default function ProjectCard() {
                     <img src={project.imageUrl} className="projects-img"/>
                     <div style={{padding:'1rem 0'}}>
                         <h6 style={{fontWeight:'bold'}}>{project.name}</h6>
-                        <p>Description:</p>
+                        
                         <p>Date: {project.date}</p>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
                             <button className="profile-button">View</button>

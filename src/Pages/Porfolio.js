@@ -1,11 +1,15 @@
 import MainLayout from "../Layout/MainLayout";
 import ProjectCard from "../Components/ProjectCard";
+import { useNavigate } from "react-router-dom";
 
 export default function Portfolio() {
     const portfolioHeaderStyle = {
         paddingBottom: '2rem',
-        
-      
+    }
+
+    const navigate = useNavigate();
+    const toMyContact = () => {
+        navigate('/contact');
     }
     return(
         <MainLayout>
@@ -20,7 +24,7 @@ export default function Portfolio() {
                     Whether you're seeking a modern and visually appealing website or a robust 
                     web application, I'm ready to turn your digital ideas into reality.
                 </p>
-                <button className="profile-button">Contact</button>
+                <button className="profile-button" onClick={toMyContact}>Contact</button>
                 <div className="session-title">MY PROJECTS</div>
             </div>
             <ProjectCard/>

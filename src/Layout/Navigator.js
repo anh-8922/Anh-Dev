@@ -47,9 +47,9 @@ export default function Navigator() {
             <ul className="nav-content">
                 <li><NavLink className='nav-items' to="/"><BsFillPersonLinesFill/><span>About me</span></NavLink></li>
                 <li><NavLink className='nav-items' to="/portfolio"><CgWebsite/><span>Portfolio</span></NavLink></li>
-                <li><NavLink className='nav-items'><LiaNewspaperSolid/><span>Resume</span></NavLink></li>
+                <li><NavLink className='nav-items' to="https://drive.google.com/file/d/1Q4Nb8rUf2y_7hzK5ghxKFW0e76JFTccm/view?usp=sharing" target="_blank"><LiaNewspaperSolid/><span>Resume</span></NavLink></li>
                 <li><NavLink className='nav-items'><ImBlog/><span>Blog</span></NavLink></li>
-                <li><NavLink className='nav-items'><TbMessageStar/><span>Contact</span></NavLink></li>
+                <li><NavLink className='nav-items' to='/contact'><TbMessageStar/><span>Contact</span></NavLink></li>
             </ul>
             <button className="profile-button">Reach me</button>
             <div></div>

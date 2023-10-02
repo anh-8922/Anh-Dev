@@ -4,11 +4,7 @@ import MainLayout from '../Layout/MainLayout';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import message from '../Assets/message.png';
-import linked from '../Assets/linkedin.png';
-import facebook from '../Assets/facebook.png';
-import discord from '../Assets/discord.png';
-import github from '../Assets/github.png';
-import email from '../Assets/email.png'
+
 
 export default function Contact() {
     const form = useRef();
@@ -32,37 +28,10 @@ export default function Contact() {
 
     return(
         <MainLayout>
-            <section className='contact-section'>
-                <div style={{display:'flex', flexDirection:'column', alignItems:'center', height:'max-content'}}>   
-                    <div style={{backgroundImage: `url("${message}")`, width:'25rem', height:'17rem', backgroundSize:'cover', margin:'auto'}}></div>
-                    <h5>Let's Connect</h5>
-                    <ul className='social-connect'>
-                        <li><a href='https://github.com/anh-8922' target='_blank'><div style={{
-                            backgroundImage: `url("${github}")`, 
-                            width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></a></li>
-                        <li><a href='https://www.facebook.com/hafsa.chau' target='_blank'><div style={{
-                            backgroundImage: `url("${facebook}")`, 
-                            width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></a></li>
-                        <li><a href='https://www.linkedin.com/in/anh-kim-chau/' target='_blank'><div style={{
-                            backgroundImage: `url("${linked}")`, 
-                            width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></a></li>
-                        <li><a href='https://discordapp.com/users/1047844500418080778' target='_blank'><div style={{
-                            backgroundImage: `url("${discord}")`, 
-                            width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></a></li>
-                        <li><div style={{
-                            backgroundImage: `url("${email}")`, 
-                            width:'3rem', height:'3rem',
-                            backgroundSize:'cover'}}/></li>
-                    </ul>
-                    <h5>or reach me at</h5>
-                    <h3>anh-dev@hotmail.com</h3>
-                </div>
-                <div style={{margin: '2rem', display:'flex', flexDirection:'column'}}>
-                    <h2 style={{color:'#2B2823'}}>Leave your message</h2>
+            <h1 style={{fontFamily: 'La Belle Aurore', fontSize:'4rem'}}>Contact</h1>
+            <div className="session-title">SEND MESSAGE</div>
+            <div style={{display:'flex', flexDirection:'row', alignItems:'flex-start'}}>
+                    
                     <form ref={form} 
                                 onSubmit={sendEmail} 
                                 style={{display:'flex', flexDirection:'column', gap:'1.5rem', alignItems:'flex-start'}}>
@@ -102,13 +71,12 @@ export default function Contact() {
                         </div>            
                         <input type="submit" 
                                     value="Send Message" 
-                                    className='submit-msg'
+                                    
                                 />
                     </form>
                         {messageStatus && alert (messageStatus)}
-                </div>
-            </section>
-           
+                    <div style={{backgroundImage: `url("${message}")`, width:'28rem', height:'20rem', backgroundSize:'cover'}}></div>
+            </div> 
         </MainLayout>
     )
 }

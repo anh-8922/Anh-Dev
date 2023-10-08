@@ -21,7 +21,7 @@ export default function HomePage() {
             </p>
             <div style={{display:'flex', flexDirection:'row', margin: '2rem 0', gap:'1rem'}}>
                 <button className="profile-button" onClick={toMyProject}>Projects</button>
-                <a target='_blank' href="https://drive.google.com/file/d/1Q4Nb8rUf2y_7hzK5ghxKFW0e76JFTccm/view?usp=sharing">
+                <a target='_blank' href="https://drive.google.com/file/d/1pAup_vmOf2OhNPwHLQ7wpsI5sYHXozcY/view?usp=sharing">
                     <button className="profile-button" >Resume</button>
                 </a>
             </div>

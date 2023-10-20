@@ -14,7 +14,7 @@ export default function HomePage() {
             <h3>&lt;Web Developer /&gt; Navigate the Digital Frontier</h3>
             <p style={{textAlign:'justify'}}>Passionate about the art of web creation, I am driven by the pursuit of crafting immersive 
                 online experiences. My expertise extends across the entire web development spectrum, 
-                spanning from the aesthetic finesse of front-end design to the technical mastery of back-end 
+                spanning from the aesthetic finesse of front-end design to the technical grasp of back-end 
                 development. With a natural talent for unraveling complex challenges, I take pride in 
                 consistently delivering top-tier projects that seamlessly align with the unique needs and 
                 aspirations of my clients.

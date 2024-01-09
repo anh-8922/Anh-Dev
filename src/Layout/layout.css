@@ -37,6 +37,7 @@
     background-image: url('../Assets/Anh.png');
     width: 13rem;
     height: 13rem;
+    border-radius: 50%;
     background-size: cover;
     display: flex;
     align-self: center;

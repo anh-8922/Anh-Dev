@@ -41,6 +41,7 @@
     background-size: cover;
     display: flex;
     align-self: center;
+    margin-top: 1rem;
 }
 
 .social-content{
